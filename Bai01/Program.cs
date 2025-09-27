@@ -11,66 +11,70 @@ namespace Bai01
     {
         static void OutPutArr(int[] arr)
         {
+            Console.Write("[ ");
             foreach (int x in arr)
             {
                 Console.Write(x + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine("]");
         }
-        static int sumOddSum(int[] arr) // hàm tổng số lẻ 
+        static int sumOddSum(int[] arr, ref bool check) // hàm tổng số lẻ 
         {
             int sum = 0;
             foreach (int x in arr)
             {
                 if (x % 2 != 0)
+                {
+                    check = true;
                     sum += x;
+                }
             }
-            return sum; 
+            return sum;
         }
         static bool isPrime(int x) // hàm kiểm tra số nguyên tố 
         {
-            if (x < 2) return false; 
-            for(int i = 2; i*i <= x; i++)
+            if (x < 2) return false;
+            for (int i = 2; i * i <= x; i++)
             {
-                if (x % i == 0) return false; 
+                if (x % i == 0) return false;
             }
-            return true; 
+            return true;
         }
         static int countPrime(int[] arr) // hàm đếm số nguyên tố trong mảng 
         {
-            int cnt = 0; 
+            int cnt = 0;
             foreach (int x in arr)
             {
-                if (isPrime(x)) cnt++; 
+                if (isPrime(x)) cnt++;
             }
-            return cnt; 
+            return cnt;
         }
 
         static bool isSquareNumber(int x) // hàm kiểm tra số chính phương 
         {
-            if (x <= 0) return false; 
+            if (x <= 0) return false;
             int k = (int)Math.Sqrt(x);
             if (k * k == x) return true;
-            return false; 
+            return false;
         }
         static int minSquareNumber(int[] arr) // hàm trả về số chính phương nhỏ nhất 
         {
-            int minResult = -1; 
-            foreach(int x in arr)
+            int minResult = -1;
+            foreach (int x in arr)
             {
-                if(isSquareNumber(x))
+                if (isSquareNumber(x))
                 {
-                    if(minResult == -1)
+                    if (minResult == -1)
                     {
-                        minResult = x; 
+                        minResult = x;
                     }
                     else
                     {
-                        minResult = Math.Min(x, minResult); 
+                        minResult = Math.Min(x, minResult);
                     }
                 }
             }
-            return minResult; 
+            return minResult;
         }
 
         static void Main(string[] args)
@@ -83,25 +87,41 @@ namespace Bai01
 
             // Tạo mảng + sinh giá trị ngẫu nhiên. 
             int[] arr = new int[n];
-            Random rd = new Random(); 
+            Random rd = new Random();
 
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 arr[i] = rd.Next(-100, 101); // Giá trị số nguyên ngẫu nhiên từ -100 đến 100. 
             }
 
-            Console.WriteLine($"Mảng số nguyên {n} phần tử số nguyên ngẫu nhiên vừa tạo : "); 
-            
+            Console.WriteLine($"Mảng số nguyên {n} phần tử số nguyên ngẫu nhiên vừa tạo : ");
             OutPutArr(arr);
+            Console.WriteLine();
 
-            int sumOfOddNumberinArr = sumOddSum(arr);
+            // Xử lý yêu cầu đề bài: 
+            bool check = false;
+            int sumOfOddNumberinArr = sumOddSum(arr, ref check);
             int theNumberOfPrimeinArr = countPrime(arr);
             int theMinSquareNumber = minSquareNumber(arr);
-            Console.WriteLine("Tổng số các số nguyên lẻ trong mảng là: " + sumOfOddNumberinArr);
-            Console.WriteLine("Số lượng số nguyên tố trong mảng là: " + theNumberOfPrimeinArr);
-            Console.WriteLine("Số chính phương nhỏ nhất trong mảng là: " + theMinSquareNumber); 
-            
-            Console.ReadLine(); 
+            if (check == false)
+            {
+                Console.WriteLine("a) Mảng không có số lẻ");
+            }
+            else
+            {
+                Console.WriteLine("a) Tổng số các số nguyên lẻ trong mảng là: " + sumOfOddNumberinArr);
+            }
+            Console.WriteLine("b) Số lượng số nguyên tố trong mảng là: " + theNumberOfPrimeinArr);
+            if (theMinSquareNumber == -1)
+            {
+                Console.WriteLine("c) Mảng không có số chính phương");
+            }
+            else
+            {
+                Console.WriteLine("c) Số chính phương nhỏ nhất trong mảng là: " + theMinSquareNumber);
+            }
+
+            Console.ReadLine();
         }
     }
 }
