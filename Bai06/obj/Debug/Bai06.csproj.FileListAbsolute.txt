@@ -1,0 +1,16 @@
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\bin\Debug\Bai06.exe.config
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\bin\Debug\Bai06.exe
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\bin\Debug\Bai06.pdb
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\obj\Debug\Bai06.csproj.AssemblyReference.cache
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\obj\Debug\Bai06.csproj.CoreCompileInputs.cache
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\obj\Debug\Bai06.exe
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\obj\Debug\Bai06.pdb
+D:\Lập Trình Trực Quan\Thực Hành\Bai06\obj\Debug\Bai06.exe.config
+D:\Visual Programming\LAB\Lab1\Bai06\bin\Debug\Bai06.exe.config
+D:\Visual Programming\LAB\Lab1\Bai06\bin\Debug\Bai06.exe
+D:\Visual Programming\LAB\Lab1\Bai06\bin\Debug\Bai06.pdb
+D:\Visual Programming\LAB\Lab1\Bai06\obj\Debug\Bai06.csproj.AssemblyReference.cache
+D:\Visual Programming\LAB\Lab1\Bai06\obj\Debug\Bai06.exe.config
+D:\Visual Programming\LAB\Lab1\Bai06\obj\Debug\Bai06.csproj.CoreCompileInputs.cache
+D:\Visual Programming\LAB\Lab1\Bai06\obj\Debug\Bai06.exe
+D:\Visual Programming\LAB\Lab1\Bai06\obj\Debug\Bai06.pdb

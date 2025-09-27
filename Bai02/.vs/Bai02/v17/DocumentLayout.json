@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp Tr\u00ECnh Tr\u1EF1c Quan\\Th\u1EF1c H\u00E0nh\\Bai02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3B20D2-B015-4D34-943B-B9C3D6EF5A01}|..\\Bai06\\Bai06.csproj|d:\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\th\u1EF1c h\u00E0nh\\bai06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Tr\u1EF1c Quan\\Th\u1EF1c H\u00E0nh\\Bai06\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Bai06\\Program.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Tr\u1EF1c Quan\\Th\u1EF1c H\u00E0nh\\Bai06\\Program.cs",
+              "RelativeToolTip": "..\\Bai06\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T16:57:23.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

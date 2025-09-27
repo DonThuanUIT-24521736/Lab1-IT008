@@ -1,0 +1,23 @@
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.exe.config
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.exe
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.pdb
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.csproj.AssemblyReference.cache
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.csproj.CoreCompileInputs.cache
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.exe
+D:\Lập Trình Trực Quan\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.pdb
+D:\Visual Programming\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.exe.config
+D:\Visual Programming\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.exe
+D:\Visual Programming\Thực Hành\Lab1\Bai345\bin\Debug\Bai345.pdb
+D:\Visual Programming\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.csproj.AssemblyReference.cache
+D:\Visual Programming\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.exe.config
+D:\Visual Programming\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.csproj.CoreCompileInputs.cache
+D:\Visual Programming\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.exe
+D:\Visual Programming\Thực Hành\Lab1\Bai345\obj\Debug\Bai345.pdb
+D:\Visual Programming\LAB\Lab1\Bai345\bin\Debug\Bai345.exe.config
+D:\Visual Programming\LAB\Lab1\Bai345\bin\Debug\Bai345.exe
+D:\Visual Programming\LAB\Lab1\Bai345\bin\Debug\Bai345.pdb
+D:\Visual Programming\LAB\Lab1\Bai345\obj\Debug\Bai345.csproj.AssemblyReference.cache
+D:\Visual Programming\LAB\Lab1\Bai345\obj\Debug\Bai345.exe.config
+D:\Visual Programming\LAB\Lab1\Bai345\obj\Debug\Bai345.csproj.CoreCompileInputs.cache
+D:\Visual Programming\LAB\Lab1\Bai345\obj\Debug\Bai345.exe
+D:\Visual Programming\LAB\Lab1\Bai345\obj\Debug\Bai345.pdb
