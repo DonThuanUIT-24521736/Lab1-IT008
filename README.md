@@ -1,6 +1,6 @@
 # 🚀 Lab 1 - IT008  
 
-Bài tập thực hành **Lab 1** môn *IT008 - Lập trình*  
+Bài tập thực hành **Lab 1** môn *IT008 - Lập trình trực quan*  
 
 ---
 
